@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+          #grid{
+            border:5px solid pink;
+            display:grid;
+            grid-template-columns: 150px 1fr;
+          }
+          
+          div {
+                border:5px solid green;
+            }
+        </style>
+    </head>
+    <body>
+<!-- 디자인만을 위한, 아무 의미없는 태그를 사용하고 싶을 땐: div(division) 태그는 블럭레벨, span 태그는 인라인. 그리드를 사용하기 위해서는 div/span 태그를 감싸는 부모 태그가 필요하다. -->
+        <div id="grid">
+            <div>Navigation</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores dicta quasi magni animi, hic unde deleniti amet cumque at ipsum corporis ratione reprehenderit blanditiis sapiente veritatis iste vel tempora velit!</div>
+        </div>
+    </body>
+</html>
